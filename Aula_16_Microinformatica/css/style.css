@@ -1,0 +1,149 @@
+body{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.cor_cabecalho{
+
+    background-color: rgb(193, 193, 193);
+    border: 5px solid black;
+
+    height: 15Vh;
+
+}
+
+.barra_pesquisa{
+
+    border: 3px solid black;
+    border-radius: 10px;
+
+}
+
+.central_search{
+
+    display: table;
+    vertical-align: middle;
+
+}
+
+.central_search2{
+
+    display: table-cell;
+    vertical-align: bottom;
+
+}
+
+.botao_pesquisa{
+
+    border: 3px solid black;
+    border-radius: 20px;
+
+    width: 50%;
+
+}
+
+.controle_texto{
+
+    font-size: 1em;
+    
+}
+
+.titulo_1{
+
+    color: orangered;
+    font-size: 7vw;
+
+}
+
+.titulo_2{
+
+    color: red;
+    font-size: 2.5em;
+    text-align: end;
+
+}
+
+.bg-orange{
+
+    background-color: rgb(230, 144, 57);
+
+}
+
+.text-blue{
+
+    color: rgb(60, 69, 99);
+
+}
+
+.linha{
+
+    border-bottom: 3px solid green;
+    padding-bottom: 2Vh;
+
+}
+
+.linha_2{
+
+    border-bottom: 3px solid black;
+    padding-bottom: 2Vh;
+
+}
+
+.ajuste_2{
+
+    height: calc((100Vw - 6rem) / 12 * 3);
+
+    padding-top: calc(((100Vw - 6rem) / 12 * 3) * 0.25);
+
+}
+
+.ajuste_imagem_2{
+
+    margin: 0 auto;
+    width: 50%;
+    height: calc(((100Vw - 6rem) / 12 * 3) * 0.5);
+
+}
+
+.pt-txt-responsivo{
+
+    padding-top: calc(((100Vw - 6rem) / 12 * 3) * 0.15);
+
+}
+
+.altura_t{
+
+    height: 40Vh;
+
+}
+
+@media (max-width: 100Vw){
+
+    .text-end-responsive{
+
+        text-align: end;
+
+    }
+
+}
+
+@media (max-width: 660px){
+
+    .responsividade_img_1{
+
+        flex: 0 0 auto;
+        width: 100%;
+
+    }
+
+    .responsividade_txt_1{
+
+        flex: 0 0 auto;
+        width: 100%;
+
+        text-align: justify;
+    }
+
+}

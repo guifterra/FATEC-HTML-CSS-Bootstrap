@@ -1,0 +1,39 @@
+/* Classe para testes de bordas */
+.br{
+
+    border: 1px solid red;
+
+}
+
+header{
+
+    height: 80Vh;
+    background-image: url(../img/Imagem_01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    color: white;
+
+}
+
+.header-h1{
+
+    font-size: 6em;
+    text-shadow: 1px 1px 3px black;
+
+    line-height: 25px;
+
+}
+
+.text-justify{
+
+    text-align: justify;
+
+}

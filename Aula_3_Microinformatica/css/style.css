@@ -1,0 +1,143 @@
+*{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body{
+
+    border: 5px solid black;
+    margin: 10px;
+
+}
+
+.header-bg-gray{
+
+    /* Config de Bordas  */
+    border-bottom: 5px solid black;
+    height: 80px;
+    width: 100%;
+
+    /* Distanciamento */
+    padding-top: 20px;
+
+    /* Fundo  */
+    background-color: gray;
+
+}
+
+.header-bg-blue{
+
+    /* Config de Bordas  */
+    border-bottom: 5px solid black;
+    height: 80px;
+    width: 100%;
+
+    /* Distanciamento */
+    padding-top: 20px;
+
+    /* Fundo  */
+    background-color: gray;
+
+}
+
+.header-bg-gray2{
+
+    /* Config de Bordas  */
+    border-bottom: 5px solid black;
+    height: 80px;
+    width: 100%;
+
+    /* Distanciamento */
+    padding-top: 20px;
+
+    /* Fundo  */
+    background-color: rgb(49, 49, 49);
+
+}
+
+nav{
+
+    /* Limite de espaçamento Horizontal*/
+    margin-left: 100px;
+    margin-right: 100px;
+
+    /* Tamanho do texto  */
+    font-size: 40px;
+
+    text-align: center;
+
+}
+
+.nav_artigos{
+
+    font-size: 10px;
+
+}
+
+a{
+    border: 1px solid black;
+    padding: 10px 25px;
+    border-radius: 7px;
+    background-color: black;
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+a:hover{
+
+    background-color: aliceblue;
+    color: black;
+    box-shadow: 3px 3px 5px black;
+    transition: 0.5s;
+
+}
+
+.a_2{
+
+    border: 3px solid black;
+    padding: 10px 25px;
+    border-radius: 7px;
+    background-color: red;
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+
+.a_2:hover{
+
+    background-color: black;
+    color: red;
+    box-shadow: 3px 3px 5px red;
+    transition: 0.5s;
+
+}
+
+.titulo{
+
+    margin-left: 100px;
+
+}
+
+.titulo_pag{
+
+    border-bottom: 5px solid black;
+    text-indent: 100px;
+
+}
+
+.cor_fundo_conteudo{
+
+    background-color: gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+figure{
+
+    margin: 0 auto;
+    width: 35%;
+
+}

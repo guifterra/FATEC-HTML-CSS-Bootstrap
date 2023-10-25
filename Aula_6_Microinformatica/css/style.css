@@ -1,0 +1,41 @@
+body{
+
+    background-color: black;
+    text-align: justify;
+
+}
+
+.bordas_img1{
+
+    border: 5px solid white;
+
+}
+
+.bordas_img1:hover{
+
+    border: 5px solid yellow;
+    
+    box-shadow: 0 0 0 25px;
+    transition: 1s;
+
+}
+
+.bordas_img2{
+
+    border: 5px solid #00ff00;
+
+}
+
+.bordas_img2:hover{
+
+    border: 5px solid red;
+    
+    box-shadow: 0 0 0 25px;
+    transition: 1s;
+
+}
+
+.fundo{
+
+    background-image: url(../img/Fundo_1.jpg);
+}

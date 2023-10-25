@@ -1,0 +1,63 @@
+body{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+header nav div section a{
+
+    color: white;
+    text-decoration: none;
+
+}
+
+.imagem_1{
+
+    height: 80Vh;
+    background-image: url("../img/Imagem_1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.fundo_cinza{
+
+    background-color: gray;
+
+}
+
+.estrutura_1{
+
+    width: 30%;
+
+}
+
+.imagem_2{
+
+    height: 40Vh;
+    background-image: url("../img/Imagem_2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.Central{
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.borda{
+
+    border: 3px solid green;
+
+}

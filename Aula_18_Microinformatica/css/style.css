@@ -1,0 +1,182 @@
+body{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+h1{
+
+    color: white;
+
+}
+
+.btn-menu{
+
+    text-decoration: none;
+    color: white;
+
+    margin-right: 2%;
+
+}
+
+.imagem_01{
+
+    background-image: url("https://picsum.photos/400/200");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc((100Vw - 12em) / 2 / 2);
+
+
+    border: 1px solid white;
+    box-shadow: 0px 0px 5px gray;
+
+}
+
+.convert_table{
+
+    display: table;
+
+}
+
+.convert_cel{
+
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+.text-justify{
+
+    text-align: justify;
+
+}
+
+.w-95{
+
+    width: 95%;
+
+}
+
+@media (max-width: 767px){
+
+    .imagem_01_ajust{
+
+        height: calc((100Vw - 12em) / 2);
+    
+    }
+
+    .w_ajust{
+
+        width: 100%;
+
+    }
+
+    .pe-resp-4{
+
+        padding-right: 1.5rem !important;
+
+    }
+
+    .mt-resp-5{
+
+        margin-top: 1em !important;
+
+    }
+
+}
+
+.img_2_h{
+
+    height: 50Vh;
+
+}
+
+.imagem_02{
+
+    background-image: url("https://picsum.photos/800/400");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.txt_black_white{
+
+    color: black;
+    text-shadow: 1px 1px 1px white;
+
+}
+
+.display-7{
+
+    font-size: calc(0.25rem + 1.5vw);
+    font-weight: 150;
+    line-height: 20px;
+
+}
+
+.imagem_03_just_0{
+
+    height: calc((100Vw - 6em) / 12 * 4 / 2);
+
+}
+
+.ajust_block{
+
+    margin: 0 auto;
+    width: 80%;
+
+}
+
+@media(min-width: 768px){
+
+    .imagem_03_just{
+
+        height: calc((100Vw - 6em) / 12 * 3 / 2);
+
+    }
+
+    .ajust_block2{
+
+        margin: 0 auto;
+        width: 100%;
+    
+    }
+}
+
+@media(min-width: 992px){
+
+    .imagem_03_just_2{
+
+        height: calc((100Vw - 6em) / 12 * 2 / 2);
+
+    }
+
+    .ajust_block3{
+
+        margin: 0 auto;
+        width: 100%;
+    
+    }
+}
+
+.btn-vm{
+
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+
+}
+
+.img_04_h{
+
+    height: calc((100Vw - 6em) / 12 * 4 / 1.5);
+
+}
+
+.imagem_05_h{
+
+    height: calc((100Vw - 6em) / 12 * 4 * 2);
+
+}

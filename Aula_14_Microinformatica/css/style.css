@@ -1,0 +1,100 @@
+body{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.menu{
+
+    color: white;
+
+}
+
+header nav a{
+
+    text-decoration: none;
+    color: white;
+
+    margin-left: 1%;
+
+}
+
+.bloco_1{
+
+    border-top: 1px solid red;
+    height: 80Vh;
+
+    padding-top: 20Vh;
+
+    background-image: url("https://picsum.photos/1440/900");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+
+.bg-black{
+
+    background-color: black;
+
+}
+
+.sec1{
+
+    color: white;
+
+    background-color: black;
+    opacity: 0.8;
+    height: 20Vh;
+
+    margin: 0 auto;
+    width: 50%;
+
+    display: table;
+
+}
+
+.ajuste_s1{
+
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.text-justify{
+
+    text-align: justify;
+
+}
+
+.ajuste_s2{
+
+    margin: 0;
+    padding: 0.25%;
+    height: calc((100Vw - 6em) / 12 * 4 / 2);
+
+}
+
+footer{
+
+    background-color: black;
+    text-align: center;
+    display: table;
+    width: 100%;
+
+}
+
+.centraliza_foot{
+
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+
+}

@@ -1,0 +1,87 @@
+body{
+
+    font-family: monospace;
+
+}
+
+.cabecalho{
+
+    height: calc(100Vw / 9);
+
+}
+
+.central{
+
+    margin: 0 auto;
+    width: 85%;
+
+}
+
+.reduc{
+
+    line-height: 10px;
+
+}
+
+.ajuste{
+
+    margin: 0 auto;
+    width: 75%;
+
+}
+
+.bg-orange{
+
+    background-color: rgb(230, 144, 57);
+
+}
+
+.text-blue{
+
+    color: rgb(14, 73, 109);
+
+}
+
+.lb-green{
+
+    border-bottom: 3px solid rgb(112, 144, 21);
+
+}
+
+.lb-black{
+
+    border-bottom: 3px solid black;
+
+}
+
+.bloco_1{
+
+    border: 5px solid black;
+    background-color: white;
+
+    
+    width: 75%;
+
+}
+
+.alt_img{
+
+    height: calc((100Vw - 9em) / 12 * 4 / 2 * 0.75);
+
+}
+
+.btn-ajust{
+
+    border: 3px solid black;
+    border-radius: 0;
+    box-shadow: 4px 4px black;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+p{
+
+    font-size: 1.3em;
+
+}

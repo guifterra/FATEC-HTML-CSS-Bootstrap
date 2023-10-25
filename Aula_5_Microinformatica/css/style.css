@@ -1,0 +1,80 @@
+body{
+
+    background-color: black;
+    color: white;
+
+}
+
+.cor1,
+.cor2,
+.cor3,
+.cor4,
+.cor5{
+
+    height: 20Vh;
+    border: 3px solid black;
+    
+}
+
+.cor1{
+
+    background-color: darkblue;
+
+}
+
+.cor2{
+
+    background-color: greenyellow;
+
+}
+
+.cor3{
+
+    background-color: yellow;
+
+}
+
+.cor4{
+
+    background-color: purple;
+
+}
+
+.cor5{
+
+    background-color: red;
+
+}
+
+p{
+
+    text-align: justify;
+
+}
+
+.img{
+
+    height: 30Vh;
+    background-color: gray;
+    border: 3px solid black;
+
+}
+
+.centralizar{
+
+    margin: 0 auto;
+    width: 80%;
+
+}
+
+.bordas_img{
+
+    border: 3px solid white;
+
+}
+
+.bordas_img_2{
+
+    border: 3px solid red;
+
+}
